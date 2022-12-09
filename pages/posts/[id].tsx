@@ -5,6 +5,7 @@ import { MDXRemote, MDXRemoteProps } from "next-mdx-remote";
 // 引入代码高亮css
 import "prismjs/themes/prism-okaidia.min.css";
 
+
 interface Props {
     postData: {
         title: string;
